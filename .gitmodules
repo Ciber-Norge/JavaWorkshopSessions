@@ -1,3 +1,6 @@
 [submodule "event-service"]
 	path = event-service
 	url = git@github.com:oyvindBjerke/event-service.git
+[submodule "calendar-javafx"]
+	path = calendar-javafx
+	url = git@github.com:michael-johansen/calendar-javafx.git
