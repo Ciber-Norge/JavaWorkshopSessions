@@ -18,4 +18,9 @@ Teknologi som så langt er nevnt:
     
 Eneste krav jeg må sette er at det skal være moderne Java teknologi (f.eks. Java 8 eller alternative JVM-språk) som benyttes.
 
+Resources:
+ - Trello board: https://trello.com/b/hD3K1BVG/java-workshop-sessions
+ - Shared drive resources https://drive.google.com/folderview?id=0B-PXuk6P1_iefm9oTGZvc2JOQkpjaTNWT0VTNlZyaE5HZ1U4STVZdGV1ZW1RRGJpOVNEcXc&usp=sharing
+
+ 
     -Michael
