@@ -4,3 +4,6 @@
 [submodule "calendar-javafx"]
 	path = calendar-javafx
 	url = git@github.com:michael-johansen/calendar-javafx.git
+[submodule "mailApi"]
+	path = mailApi
+	url = https://github.com/mathiamo/mailApi.git
