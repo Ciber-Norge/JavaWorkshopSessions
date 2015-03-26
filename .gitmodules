@@ -7,3 +7,6 @@
 [submodule "mailApi"]
 	path = mailApi
 	url = https://github.com/mathiamo/mailApi.git
+[submodule "user-service"]
+	path = user-service
+	url = git@github.com:oyvindBjerke/user-service.git
