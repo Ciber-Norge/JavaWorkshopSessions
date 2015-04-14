@@ -40,6 +40,12 @@ Eneste krav jeg må sette er at det skal være moderne Java teknologi (f.eks. Ja
 <code>sudo docker run --name event-mysql -e MYSQL_ROOT_PASSWORD=rootPassword -e MYSQL_USER=username -e MYSQL_PASSWORD=userPassword -e MYSQL_DATABASE=event_db -d -p 20101:3306 mysql</code>
 <p><bold>TODO: </bold>Add persistance to MySQL</p>
 
+<h3>Docker container for MongoDB</h3>
+<p>The health-check-service in this project uses MongoDB</p>
+<h4>Setup</h4>
+<code>docker pull mongo</code>
+<code>docker run --name hcs-mongo -d -p desiredPort:27017 -v pathToDesiredPersistance:/data/db mongo</code>
+
 Resources:
  - Trello board: https://trello.com/b/hD3K1BVG/java-workshop-sessions
  - Shared drive resources https://drive.google.com/folderview?id=0B-PXuk6P1_iefm9oTGZvc2JOQkpjaTNWT0VTNlZyaE5HZ1U4STVZdGV1ZW1RRGJpOVNEcXc&usp=sharing
