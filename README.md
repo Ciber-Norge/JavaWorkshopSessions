@@ -43,8 +43,8 @@ Eneste krav jeg må sette er at det skal være moderne Java teknologi (f.eks. Ja
 <h3>Docker container for MongoDB</h3>
 <p>The health-check-service in this project uses MongoDB</p>
 <h4>Setup</h4>
-<code>docker pull mongo</code>
-<code>docker run --name hcs-mongo -d -p desiredPort:27017 -v pathToDesiredPersistance:/data/db mongo</code>
+<p><code>docker pull mongo</code></p>
+<p><code>docker run --name hcs-mongo -d -p desiredPort:27017 -v pathToDesiredPersistance:/data/db mongo</code></p>
 
 Resources:
  - Trello board: https://trello.com/b/hD3K1BVG/java-workshop-sessions
