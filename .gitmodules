@@ -10,3 +10,6 @@
 [submodule "user-service"]
 	path = user-service
 	url = git@github.com:oyvindBjerke/user-service.git
+[submodule "health-check-service"]
+	path = health-check-service
+	url = git@github.com:oyvindBjerke/health-check-service.git
