@@ -1,0 +1,3 @@
+rootProject.name = 'calendar-javafx'
+
+include 'calendar-javafx', 'event-aggregator', 'event-service', 'user-service', 'healt-check-service'
