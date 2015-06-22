@@ -16,3 +16,6 @@
 [submodule "event-aggregator"]
 	path = event-aggregator
 	url = https://github.com/gjermund/event-aggregator.git
+[submodule "location-service"]
+	path = location-service
+	url = git@github.com:mathiamo/location-service.git
