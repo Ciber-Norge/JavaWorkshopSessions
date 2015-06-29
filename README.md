@@ -1,3 +1,17 @@
+# How to add a new submodule
+
+1. Create your own module
+2. Publish it to GitHub (important, example yourusername/yourproject)
+3. Fork this repository (example. into yourusername/JavaWorkshopSession(
+4. Add the fork as an remote, git remote add origin git@github.com:yourusername/JavaWorkshopSession.git
+5. Add the your project as an submodule, git submodule add git@github.com:yourusername/yourproject.git
+6. Initialize and update the submodules with git submodule init, and git submodule update 
+7. git ci -am "Your commit message"
+8. git push origin/master
+9. Send a pull request 
+10. Win!
+
+
 # JavaWorkshopSessions
 
 Java-fagpraksisen vil skape engasjement rundt Java og nye teknologier. I den anledning vil vi arrangere et frivillig opplegg for å sette seg inn i bleeding-edge teknologier. Jeg foreslår at vi gjør dette ved å løse en praktisk problemstilling, for eksempel en eksempel applikasjon. 
