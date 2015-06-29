@@ -3,11 +3,11 @@
 1. Create your own module
 2. Publish it to GitHub (important, example yourusername/yourproject)
 3. Fork this repository (example. into yourusername/JavaWorkshopSession(
-4. Add the fork as an remote, git remote add origin git@github.com:yourusername/JavaWorkshopSession.git
-5. Add the your project as an submodule, git submodule add git@github.com:yourusername/yourproject.git
-6. Initialize and update the submodules with git submodule init, and git submodule update 
-7. git ci -am "Your commit message"
-8. git push origin/master
+4. Add the fork as an remote, <code>git remote add origin git@github.com:yourusername/JavaWorkshopSession.git</code>
+5. Add the your project as an submodule, <code>git submodule add git@github.com:yourusername/yourproject.git</code>
+6. Initialize and update the submodules with <code>git submodule init</code>, and <code>git submodule update</code>
+7. <code>git ci -am "Your commit message"</code>
+8. <code>git push origin/master</code>
 9. Send a pull request 
 10. Win!
 
