@@ -19,3 +19,6 @@
 [submodule "location-service"]
 	path = location-service
 	url = git@github.com:mathiamo/location-service.git
+[submodule "Angular-event-registration"]
+	path = Angular-event-registration
+	url = git@github.com:mihaelam/Angular-event-registration.git
